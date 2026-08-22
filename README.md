@@ -8,6 +8,11 @@
 | 技能 | 目录 | 用途 |
 |------|------|------|
 | **gh-summary** | `skills/gh-summary/` | 快速解读 GitHub 项目：输入仓库链接 → 抓 README + 元数据（star/语言/更新时间）→ 调用本机 LLM 生成通俗中文解读（一句话定位 / 解决什么问题 / 核心功能 / 怎么用 / 适不适合你）|
+| **verification-before-completion** | `skills/verification-before-completion/` | （superpowers）铁律：没有验证证据不许声称完成。声称测试通过/构建成功/bug 修复前必须实际运行验证命令并确认输出 |
+| **writing-skills** | `skills/writing-skills/` | （superpowers）如何编写/编辑/验证 SKILL.md 技能（含 anthropic 最佳实践、说服原则、图约定、渲染工具）|
+| **subagent-driven-development** | `skills/subagent-driven-development/` | （superpowers）用子 agent 分工执行实现计划：任务拆解、实施者/评审者提示词、任务简报 |
+| **handoff** | `skills/handoff/` | （mattpocock）把当前会话压缩成交接文档，供另一个 agent 续接（手动触发，`disable-model-invocation`）|
+| **code-review** | `skills/code-review/` | （mattpocock）审查自某点以来的变更：按仓库编码标准（Standards）与需求规格（Spec）两条轴线并行评审 |
 
 ## 🛠 如何安装一个技能
 
