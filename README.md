@@ -13,6 +13,12 @@
 | **subagent-driven-development** | `skills/subagent-driven-development/` | （superpowers）用子 agent 分工执行实现计划：任务拆解、实施者/评审者提示词、任务简报 |
 | **handoff** | `skills/handoff/` | （mattpocock）把当前会话压缩成交接文档，供另一个 agent 续接（手动触发，`disable-model-invocation`）|
 | **code-review** | `skills/code-review/` | （mattpocock）审查自某点以来的变更：按仓库编码标准（Standards）与需求规格（Spec）两条轴线并行评审 |
+| **ponytail** | `skills/ponytail/` | （ponytail）懒惰资深开发模式：YAGNI、标准库优先、无未要求的抽象，任何编码任务都适用 |
+| **ponytail-audit** | `skills/ponytail-audit/` | 全仓库过度设计审计：列出该删/简化/换成标准库的地方 |
+| **ponytail-debt** | `skills/ponytail-debt/` | 把 ponytail 快捷注释汇总成债务清单 |
+| **ponytail-gain** | `skills/ponytail-gain/` | 展示 ponytail 的量化收益（更少代码/成本/更快）|
+| **ponytail-help** | `skills/ponytail-help/` | ponytail 模式/技能/命令速查 |
+| **ponytail-review** | `skills/ponytail-review/` | 审查 diff 是否过度设计：找出可删除的重造标准库/多余依赖/投机抽象 |
 
 ## 🛠 如何安装一个技能
 
