@@ -41,6 +41,13 @@ SELF_BUILT = [
     "subagent-driven-development",
     "handoff",
     "code-review",
+    # 2026-08-22 ponytail 全家桶（极简编码风格，1 主 + 5 子）
+    "ponytail",
+    "ponytail-audit",
+    "ponytail-debt",
+    "ponytail-gain",
+    "ponytail-help",
+    "ponytail-review",
 ]
 
 GIT_IDENTITY = ["-c", "user.name=Mr.zk", "-c", "user.email=836901721@qq.com"]
