@@ -35,6 +35,12 @@ SKILLS_DIR_IN_REPO = os.path.join(REPO_ROOT, "skills")
 # 也可以给 SKILL.md 加 frontmatter 字段 self-built: true 自动识别
 SELF_BUILT = [
     "gh-summary",
+    # 2026-08-22 挑选安装：superpowers 3 个 + mattpocock 2 个（适合当前 Windows+DSH 环境）
+    "verification-before-completion",
+    "writing-skills",
+    "subagent-driven-development",
+    "handoff",
+    "code-review",
 ]
 
 GIT_IDENTITY = ["-c", "user.name=Mr.zk", "-c", "user.email=836901721@qq.com"]
